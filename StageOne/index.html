@@ -17,21 +17,11 @@
         <p data-testid="currentDayOfTheWeek">#</p>
         <p data-testid="currentUTCTime">#</p>
         <p data-testid="myTrack">Track:Frontend</p>
-        <a href="#" data-testid="githubURL">
+        <a href="https://github.com/NdakoAdama/HNGx-Internship" data-testid="githubURL">
             Github
         </a>
     </div>
 
-    <script>
-        const days = ['sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday','Friday','Saturday'];
-        const currentDay = new Date()
-        const currentDayOfTheWeek = days[currentDay.getDay()]
-        const daysOfTheWeek = document.querySelector('[data-testid="currentDayOfTheWeek"]');
-        daysOfTheWeek.textContent = currentDayOfTheWeek;
-
-        const utcTimeElement = document.querySelector('[data-testid="currentUTCTime"]');
-        const currentTimeInMS = new Date().getTime();
-        utcTimeElement.textContent = currentTimeInMS;
-    </script>
+    <script src="./index.js"></script>
 </body>
 </html>

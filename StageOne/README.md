@@ -1,1 +1,1 @@
-# Internship
+# Stage one task for HNGx Internship
