@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 10%;
+}
+.img{
+    margin: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
